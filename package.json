@@ -1,0 +1,23 @@
+{
+  "name": "what-to-eat-tonight",
+  "version": "1.0.0",
+  "description": "# Contributors :  Zcher-Kevin / Huwentwent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup-db": "node Backend/scripts/setup-db.js",
+    "dev": "nodemon --watch Backend/src --exec ts-node Backend/src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2"
+  }
+}
