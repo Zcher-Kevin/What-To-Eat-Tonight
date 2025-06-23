@@ -7,7 +7,7 @@ import { getAllRestaurants, getRestaurantById } from './controllers/restaurantCo
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = Number(process.env.PORT) || 3000;
 
 app.use(express.json());
 
